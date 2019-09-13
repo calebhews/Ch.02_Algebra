@@ -12,7 +12,7 @@ b/a                 = 2.5
 b//a                = 2
 b**a                = 25
 b%a                 = 1
-a+B                 = 7
+a+B                 = name 'B' is not defined
 type(42)            = <class 'int'>
 type(42.0)          = <class 'float'>
 type("C3PO")        = <class 'str'>
@@ -36,7 +36,7 @@ type(a)       = <class 'float'>
 
 4.) Fix the mistake in the following code.
 x,y = (4,5)
-a = 3(x + y)
+a = 3*(x + y)
 a = 27
 
 
@@ -46,8 +46,8 @@ a = 27
 
 5.) Fix the code so it will calculate the average.
 x,y,z =(3,4,5)
-ave = x+y+z/3
-ave = 8.6
+ave = (x+y+z)/3
+ave = 4
 
 
 
